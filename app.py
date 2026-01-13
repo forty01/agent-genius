@@ -68,10 +68,4 @@ if uploaded_file is not None:
                     os.remove(tmp_file_path)
 
             except Exception as e:
-                st.error(f"An error occurred: {e}")                "Product": "Benefit Control",
-                "5-Year Rate": "8.50%"
-            })
-
-# Footer
-st.markdown("---")
-st.caption("AgentGenius v0.1 - Built for The Fortier Team")
+                st.error(f"An error occurred: {e}")
